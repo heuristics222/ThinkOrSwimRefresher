@@ -5,15 +5,13 @@ Login fails on the [ThinkOrSwim web platform](https://trade.thinkorswim.com/) if
 ## Installation
 
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) browser extension.
-2. Click the Tampermonkey icon in your browser toolbar and select **Create a new script**.
-3. Replace the default content with the contents of `refresher.js`.
-4. Press **Ctrl+S** to save.
+2. Click [this link](raw/refs/heads/main/refresher.user.js) to open the raw script — Tampermonkey will prompt you to install it.
 
 ## Usage
 
 - Navigate to `https://trade.thinkorswim.com/` and leave the tab open.
 - The script runs silently in the background — no configuration needed.
-- The first time you switch back to the tab after 3am local time, the page will automatically reload.
+- The first time you switch back to the tab after 5am local time, the page will automatically reload.
 - Subsequent tab switches that same day will not trigger another reload.
 
 ## How It Works
