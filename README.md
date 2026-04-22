@@ -5,7 +5,7 @@ Login fails on the [ThinkOrSwim web platform](https://trade.thinkorswim.com/) if
 ## Installation
 
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) browser extension.
-2. Click [this link](./refresher.user.js?raw=1) to open the raw script — Tampermonkey will prompt you to install it.
+2. Click [this link (in a new tab!)](./refresher.user.js?raw=1) to open the raw script — Tampermonkey will prompt you to install it.
 
 ## Usage
 
